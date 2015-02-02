@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+java.lang.System.out.println("");    
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	 <tabTrigger>System.out.println</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope> 
+</snippet>
