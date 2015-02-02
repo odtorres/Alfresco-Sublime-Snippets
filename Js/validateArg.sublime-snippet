@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+if (args.to == null)
+{
+   status.code = 400;
+   status.message = "Some argumments are missing";
+   status.redirect = true;
+}
+else
+{
+   model.to = args.to; 
+}
+]]></content>
+	<tabTrigger>validate args</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.js</scope>
+	 <description>Main Controller Script </description>
+</snippet>

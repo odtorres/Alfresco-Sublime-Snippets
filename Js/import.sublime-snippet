@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<import resource="/Company Home/Data Dictionary/Scripts/library.js">
+<import resource="workspace://SpacesStore/6f73de1b-d3b4-11db-80cb-112e6c2ea048">
+<import resource="classpath:alfresco/extension/myutils.js">	
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>import</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope> 
+	<description>Importing Scripts</description>
+</snippet>

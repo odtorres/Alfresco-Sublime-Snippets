@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[<#if error??>{
+	"error" : "${error?string}"
+}
+<#else>{
+	"results" : [<#list results as result>
+		{
+	<#-------------- UUID -------------->
+		"uuid" : "{result.properties['sys:node-uuid']}",
+	<#-------------- Content -------------->
+		<#if result.properties['cm:content']??>
+		"content" : "{result.properties['sys:node-uuid']}",
+	   	<#else>
+	   	"content" : null,
+		</#if>
+	<#-------------- Created -------------->
+	   	<#if result.properties['cm:created']??>
+	   	"created" : "{result.properties['cm:created']?string("dd-MM-yyyy")}"
+	   	<#else>
+	   	"created" : null
+	   	</#if>	
+		}<#if result_has_next>,</#if></#list>
+	]
+}
+</#if>]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>result freemarker-webs</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

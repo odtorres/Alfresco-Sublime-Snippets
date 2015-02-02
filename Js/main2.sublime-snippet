@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+/*
+description: 
+author: 
+published: 
+version: 
+*/
+try{	
+	
+	var path = 'PATH:"/app:company_home//*" AND TYPE:"pref:name"';	
+	model.result = search.luceneSearch('workspace://SpacesStore', path);
+	
+}catch(e){
+	model.error = e.message;
+}
+]]></content>
+	<tabTrigger>main path type</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.js</scope>
+	 <description>Main Controller Script </description>
+</snippet>

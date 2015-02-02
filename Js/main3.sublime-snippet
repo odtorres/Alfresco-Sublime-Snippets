@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+/*
+description: 
+author: 
+published: 
+version: 
+*/
+try{
+	model.result search.findNode('workspace://SpacesStore/' + uuid_document(doc));
+}catch(e){
+	model.error = e.message;
+}
+]]></content>
+	<tabTrigger>main findNode</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.js</scope>
+	 <description>Main Controller Script </description>
+</snippet>

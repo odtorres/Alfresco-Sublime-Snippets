@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<url>/org/{userid}</url>]]></content>
+	<tabTrigger>url vartemp</tabTrigger>
+	<scope>text.xml</scope>
+	<description>webscript.desc.xml</description>
+</snippet>

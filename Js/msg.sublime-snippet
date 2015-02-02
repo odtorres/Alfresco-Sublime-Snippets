@@ -1,0 +1,5 @@
+<snippet>
+	<content><![CDATA[msg("value")]]></content>
+	<tabTrigger>msg</tabTrigger>
+	<description>Root Objects</description>
+</snippet>

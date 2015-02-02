@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<url>/org/{userid}?to={name}&amp;subject={subject}</url>]]></content>
+	<tabTrigger>url all</tabTrigger>
+	<scope>text.xml</scope>
+	<description>webscript.desc.xml</description>
+</snippet>

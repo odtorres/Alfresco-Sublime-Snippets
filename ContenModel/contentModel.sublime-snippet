@@ -1,0 +1,81 @@
+<snippet>
+	<content><![CDATA[?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="x-m:model">
+	<description>description</description>
+	<author>Author</author>
+	<published>Date</published>
+	<version>1.0</version>
+	
+	<imports>
+		<import prefix="d" uri="http://www.alfresco.org/model/dictionary/1.0" />
+		<import prefix="cm" uri="http://www.alfresco.org/model/content/1.0" />
+		<import prefix="sys" uri="http://www.alfresco.org/model/system/1.0" />
+	</imports>
+
+	<namespaces>
+		<namespace prefix="x-m" uri="http://www.org/v3.1/module/x-module/model/1.0" />
+	</namespaces>
+	
+	<constraints>
+		<constraint name="x-m:x-list" type="LIST">
+			<parameter name="allowedValues">
+				<list>
+					<value>1</value>
+					<value>2</value>
+					<value>3</value>
+				</list>
+			</parameter>
+		</constraint>
+	</constraints>
+
+	<types>
+		<type name="x-m:name">
+			<title>Title</title>
+			<parent>sys:base</parent>
+			<properties>
+				<property name="x-m:date">
+					<title>Date</title>
+					<type>d:date</type>
+				</property>
+				<property name="x-m:list">
+					<title>List</title>
+					<type>d:text</type>
+					<constraints>
+						<constraint ref="x-m:x-list" />
+					</constraints>
+				</property>
+				<property name="x-m:text">
+					<title>Text</title>
+					<type>d:text</type>
+				</property>				
+			</properties>
+			<mandatory-aspects>
+				<aspect>cm:auditable</aspect>
+				<aspect>cm:author</aspect>
+			</mandatory-aspects>
+		</type>
+	</types>
+	
+	<aspects>
+		<aspect name="x-m:x-aspect">
+			<associations>
+				<child-association name="x-m:x-module">
+				   <source>
+					  <mandatory>false</mandatory>
+					  <many>false</many>
+				   </source>
+				   <target>
+					  <class>cm:folder</class>
+					  <mandatory enforced="true">true</mandatory>
+					  <many>false</many>
+				   </target>
+				   <duplicate>false</duplicate>
+				</child-association>
+			 </associations>
+		</aspect>
+	</aspects>
+</model]]></content>
+	<tabTrigger>model</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>

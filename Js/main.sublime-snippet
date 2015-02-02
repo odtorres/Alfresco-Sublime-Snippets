@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+/*
+description: 
+author: 
+published: 
+version: 
+*/
+try{	
+	
+	model.result=" ";
+	
+}catch(e){
+	model.error = e.message;
+}
+]]></content>
+	<tabTrigger>main</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.js</scope>
+	 <description>Main Controller Script </description>
+</snippet>
