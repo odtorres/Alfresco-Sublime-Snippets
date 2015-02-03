@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<types>
+	<type name="x-m:name">
+		<title>Title</title>
+		<parent>sys:base</parent>
+		<properties>
+			<property name="x-m:date">
+				<title>Date</title>
+				<type>d:date</type>
+			</property>
+			<property name="x-m:list">
+				<title>List</title>
+				<type>d:text</type>
+				<constraints>
+					<constraint ref="x-m:x-list" />
+				</constraints>
+			</property>
+			<property name="x-m:text">
+				<title>Text</title>
+				<type>d:text</type>
+			</property>				
+		</properties>
+		<mandatory-aspects>
+			<aspect>cm:auditable</aspect>
+			<aspect>cm:author</aspect>
+		</mandatory-aspects>
+	</type>
+</types>]]></content>
+	<tabTrigger>types</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>

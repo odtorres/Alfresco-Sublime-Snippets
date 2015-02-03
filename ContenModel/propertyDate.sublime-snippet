@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<property name="x-m:date">
+	<title>Date</title>
+	<type>d:date</type>
+</property>
+	]]></content>
+	<tabTrigger>propertyDate</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>

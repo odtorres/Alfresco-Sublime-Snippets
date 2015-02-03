@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<constraints>
+	<constraint name="x-m:x-list" type="LIST">
+		<parameter name="allowedValues">
+			<list>
+				<value>1</value>
+				<value>2</value>
+				<value>3</value>
+			</list>
+		</parameter>
+	</constraint>
+</constraints>]]></content>
+	<tabTrigger>constraints List</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>

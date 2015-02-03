@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<imports>
+	<import prefix="d" uri="http://www.alfresco.org/model/dictionary/1.0" />
+	<import prefix="cm" uri="http://www.alfresco.org/model/content/1.0" />
+	<import prefix="sys" uri="http://www.alfresco.org/model/system/1.0" />
+</imports>]]></content>
+	<tabTrigger>imports</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>

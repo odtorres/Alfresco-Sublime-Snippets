@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<property name="x-m:list">
+	<title>List</title>
+	<type>d:text</type>
+	<constraints>
+		<constraint ref="x-m:x-list" />
+	</constraints>
+</property>]]></content>
+	<tabTrigger>propertyList</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>

@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="x-m:model">
 	<description>description</description>
 	<author>Author</author>
@@ -58,23 +58,10 @@
 	
 	<aspects>
 		<aspect name="x-m:x-aspect">
-			<associations>
-				<child-association name="x-m:x-module">
-				   <source>
-					  <mandatory>false</mandatory>
-					  <many>false</many>
-				   </source>
-				   <target>
-					  <class>cm:folder</class>
-					  <mandatory enforced="true">true</mandatory>
-					  <many>false</many>
-				   </target>
-				   <duplicate>false</duplicate>
-				</child-association>
-			 </associations>
+			
 		</aspect>
 	</aspects>
-</model]]></content>
+</model>]]></content>
 	<tabTrigger>model</tabTrigger>
 	<scope>text.xml</scope>
 	<description>ContenModel.xml</description>

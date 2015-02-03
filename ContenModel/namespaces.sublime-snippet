@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<namespaces>
+	<namespace prefix="x-m" uri="http://www.org/v3.1/module/x-module/model/1.0" />
+</namespaces>]]></content>
+	<tabTrigger>namespaces</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>

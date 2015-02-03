@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<property name="x-m:int">
+	<title>Int</title>
+	<type>d:int</type>	
+</property>
+	]]></content>
+	<tabTrigger>propertyInt</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>

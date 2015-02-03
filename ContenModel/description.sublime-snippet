@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<description>description</description>
+<author>Author</author>
+<published>Date</published>
+<version>1.0</version>]]></content>
+	<tabTrigger>description</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>
