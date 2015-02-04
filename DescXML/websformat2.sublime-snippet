@@ -2,5 +2,5 @@
 	<content><![CDATA[<format default="html">extension</format>]]></content>
 	<tabTrigger>format extension</tabTrigger>
 	<scope>text.xml</scope>
-	<description>webscript.desc.xml</description>
+	<description>Webscript.desc.xml</description>
 </snippet>

@@ -1,5 +1,6 @@
 <snippet>
-	<content><![CDATA[<webscript>
+	<content><![CDATA[
+<webscript>
 	<shortname>human readable name for the Web Script</shortname>
 	<description>(optional) is documentation for the Web Script </description>
 	<url>/org/helloworld?to={name}</url>
@@ -9,5 +10,5 @@
 </webscript>]]></content>
 	<tabTrigger>webscript</tabTrigger>
 	<scope>text.xml</scope>
-	<description>webscript.desc.xml</description>
+	<description>Webscript.desc.xml</description>
 </snippet>
