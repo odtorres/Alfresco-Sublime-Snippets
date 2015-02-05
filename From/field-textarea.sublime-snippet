@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<field id="$1" label-id="$2" >
+	<control template="/org/alfresco/components/form/controls/textarea.ftl">		
+	</control>
+</field>
+]]></content>
+	<tabTrigger>field-textarea</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form.xml</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<field id="$1" label-id="$2" />
+]]></content>
+	<tabTrigger>field</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form.xml</description>
+</snippet>

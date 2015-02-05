@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<field id="$1" label-id="$2" >
+	<control template="/org/alfresco/components/form/controls/selectone.ftl">
+        <control-param name="options">
+			Value1|{$2},
+			Value2|{$2},
+			Value3|{$2}
+		</control-param>
+		<control-param name="style">width:380px</control-param>
+    </control>
+</field>
+]]></content>
+	<tabTrigger>field-selectone</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form.xml</description>
+</snippet>
