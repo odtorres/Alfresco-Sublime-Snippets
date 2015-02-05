@@ -1,22 +1,22 @@
 <snippet>
 	<content><![CDATA[
 <types>
-	<type name="x-m:name">
+	<type name="$1:name">
 		<title>Title</title>
 		<parent>sys:base</parent>
 		<properties>
-			<property name="x-m:date">
+			<property name="$1:date">
 				<title>Date</title>
 				<type>d:date</type>
 			</property>
-			<property name="x-m:list">
+			<property name="$1:list">
 				<title>List</title>
 				<type>d:text</type>
 				<constraints>
-					<constraint ref="x-m:x-list" />
+					<constraint ref="$1:x-list" />
 				</constraints>
 			</property>
-			<property name="x-m:text">
+			<property name="$1:text">
 				<title>Text</title>
 				<type>d:text</type>
 			</property>				

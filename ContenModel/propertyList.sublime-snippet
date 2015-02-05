@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-<property name="x-m:list">
+<property name="$1:list">
 	<title>List</title>
 	<type>d:text</type>
 	<constraints>
-		<constraint ref="x-m:x-list" />
+		<constraint ref="$1:x-list" />
 	</constraints>
 </property>]]></content>
 	<tabTrigger>propertyList</tabTrigger>

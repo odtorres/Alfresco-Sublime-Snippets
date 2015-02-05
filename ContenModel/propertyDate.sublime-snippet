@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-<property name="x-m:date">
+<property name="$1:date">
 	<title>Date</title>
 	<type>d:date</type>
 </property>

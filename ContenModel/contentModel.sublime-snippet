@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="x-m:model">
+<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="$1:$2">
 	<description>description</description>
 	<author>Author</author>
 	<published>Date</published>
@@ -13,11 +13,11 @@
 	</imports>
 
 	<namespaces>
-		<namespace prefix="x-m" uri="http://www.org/v3.1/module/x-module/model/1.0" />
+		<namespace prefix="$1" uri="http://www.org/v3.1/module/$2/model/1.0" />
 	</namespaces>
 	
 	<constraints>
-		<constraint name="x-m:x-list" type="LIST">
+		<constraint name="$1:x-list" type="LIST">
 			<parameter name="allowedValues">
 				<list>
 					<value>1</value>
@@ -29,22 +29,22 @@
 	</constraints>
 
 	<types>
-		<type name="x-m:name">
+		<type name="$1:name">
 			<title>Title</title>
 			<parent>sys:base</parent>
 			<properties>
-				<property name="x-m:date">
+				<property name="$1:date">
 					<title>Date</title>
 					<type>d:date</type>
 				</property>
-				<property name="x-m:list">
+				<property name="$1:list">
 					<title>List</title>
 					<type>d:text</type>
 					<constraints>
-						<constraint ref="x-m:x-list" />
+						<constraint ref="$1:x-list" />
 					</constraints>
 				</property>
-				<property name="x-m:text">
+				<property name="$1:text">
 					<title>Text</title>
 					<type>d:text</type>
 				</property>				
@@ -57,7 +57,7 @@
 	</types>
 	
 	<aspects>
-		<aspect name="x-m:x-aspect">
+		<aspect name="$1:x-aspect">
 			
 		</aspect>
 	</aspects>

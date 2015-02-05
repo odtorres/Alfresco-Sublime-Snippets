@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 <constraints>
-	<constraint name="x-m:x-list" type="LIST">
+	<constraint name="$1:$2" type="LIST">
 		<parameter name="allowedValues">
 			<list>
 				<value>1</value>
