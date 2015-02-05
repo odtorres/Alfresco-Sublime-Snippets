@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<alfresco-config>
+	
+</alfresco-config>]]></content>
+	<tabTrigger>alfresco-config</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form.xml</description>
+</snippet>

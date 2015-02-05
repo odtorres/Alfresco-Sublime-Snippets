@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<config evaluator="node-type" condition="$1:$2">
+		<forms>
+			<!-- Edit Note Properties Form (Popup) -->
+			<form id="doclib-simple-metadata">
+				<field-visibility>
+                    <show id="$1:$3"/>                    
+                </field-visibility>
+                <appearance>
+                    <field id="$1:$3" label-id="$4" >
+						<control template="/org/alfresco/components/form/controls/date.ftl">
+							<control-param name="style">width:380px</control-param>
+						</control>
+					</field>
+                </appearance>
+			</form>
+		</forms>
+</config>]]></content>
+	<tabTrigger>config-add-edit</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form.xml</description>
+</snippet>
