@@ -13,6 +13,7 @@ A collection of sublime text snippets useful for coding Alfresco webscripts, scr
 2. Description Webscripts xml
 3. Freemarker Template
 4. Content Model
+5. Alfresco web client Forms
 
 ## Author
 GitHub: [odtorres](https://github.com/odtorres)
