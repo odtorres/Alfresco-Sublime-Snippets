@@ -1,21 +1,21 @@
 <snippet>
 	<content><![CDATA[<#if error??>{
-	"error" : "${error?string}"
+	"error" : "\${error?string}"
 }
 <#else>{
 	"results" : [<#list results as result>
 		{
 	<#-------------- UUID -------------->
-		"uuid" : "{result.properties['sys:node-uuid']}",
+		"uuid" : "\${result.properties['sys:node-uuid']}",
 	<#-------------- Content -------------->
 		<#if result.properties['cm:content']??>
-		"content" : "{result.properties['sys:node-uuid']}",
+		"content" : "\${result.properties['sys:node-uuid']}",
 	   	<#else>
 	   	"content" : null,
 		</#if>
 	<#-------------- Created -------------->
 	   	<#if result.properties['cm:created']??>
-	   	"created" : "{result.properties['cm:created']?string("dd-MM-yyyy")}"
+	   	"created" : "\${result.properties['cm:created']?string("dd-MM-yyyy")}"
 	   	<#else>
 	   	"created" : null
 	   	</#if>	

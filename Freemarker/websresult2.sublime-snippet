@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[<#if error??>{
-	"error" : "${error?string}"
+	"error" : "\${error?string}"
 }
 <#else>{
 	"results" : "OK"

@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[${}]]></content>
+	<content><![CDATA[\${}]]></content>
 	<tabTrigger>${}</tabTrigger>	
 	<description>var freemarker-webs</description>
 </snippet>
