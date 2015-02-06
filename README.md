@@ -8,6 +8,9 @@ A collection of sublime text snippets useful for coding Alfresco webscripts, scr
  * Linux: /home/yourUser/.config/sublime-text.../Packages/User
  * Windows: C:\Users\yourUser\AppData\Roaming\Sublime Text ...\Packages\User
 
+## Usage
+![screencast](http://i.imgur.com/eFXu5Hl.gif)
+
 ## Contents
 1. Alfresco JavaScript API
 2. Description Webscripts xml
