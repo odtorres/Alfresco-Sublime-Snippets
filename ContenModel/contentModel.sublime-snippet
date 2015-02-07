@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="$1:$2">
+<model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="$1:model">
 	<description>description</description>
 	<author>Author</author>
 	<published>Date</published>
