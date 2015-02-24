@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[<multiple>true</multiple>]]></content>
+	<tabTrigger>multiple</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>
