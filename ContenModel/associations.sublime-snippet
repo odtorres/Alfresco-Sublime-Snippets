@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<associations>
+	
+</associations>
+]]></content>
+	<tabTrigger>associations</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>
