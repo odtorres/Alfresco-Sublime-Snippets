@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+<child-association name="$1:$2">
+   <source>
+	  <mandatory>false</mandatory>
+	  <many>false</many>
+   </source>
+   <target>
+	  <class>cm:folder</class>
+	  <mandatory enforced="true">true</mandatory>
+	  <many>false</many>
+   </target>
+   <duplicate>false</duplicate>
+</child-association>
+]]></content>
+	<tabTrigger>child-association</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>
