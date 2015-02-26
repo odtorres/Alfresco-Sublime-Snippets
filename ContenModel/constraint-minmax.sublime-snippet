@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<constraint name="$1:$2" type="MINMAX">
+ <parameter name="minValue">
+    <value>0</value>
+ </parameter>
+ <parameter name="maxValue">
+    <value>100</value>
+ </parameter>
+</constraint>]]></content>
+	<tabTrigger>constraints MINMAX</tabTrigger>
+	<scope>text.xml</scope>
+	<description>ContenModel.xml</description>
+</snippet>
