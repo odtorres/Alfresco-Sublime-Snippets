@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-search.luceneSearch('workspace://SpacesStore', 'PATH:"/app:company_home//*" AND TYPE:"pref:name"');
+search.luceneSearch('workspace://SpacesStore', 'PATH:"/app:company_home//*" AND TYPE:"p:name"');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>search type</tabTrigger> 
