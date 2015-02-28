@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
 /*
-description: 
-author: 
-published: 
-version: 
+description: ${1:$TM_FILENAME}
+author: ${2:$TM_FULLNAME} : ${3:$TM_EMAIL}
+organization: ${4:$TM_ORGANIZATION_NAME}
+published: ${5:$TM_YEAR}
+version: v0.1.0
 */
 try{
 	model.result search.findNode('workspace://SpacesStore/' + uuid_document(doc));
