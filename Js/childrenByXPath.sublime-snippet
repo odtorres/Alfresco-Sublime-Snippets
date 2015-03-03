@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+childrenByXPath("*[@cm:name='Finance Documents']/*");
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>childrenByXPath</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>ScriptNode API</description>
+</snippet>
