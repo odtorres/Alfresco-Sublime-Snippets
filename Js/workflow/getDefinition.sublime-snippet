@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+workflow.getDefinition("A workflow definition id");
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getDefinition</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.js</scope>
+	 <description>Workflow Manager</description>
+</snippet>

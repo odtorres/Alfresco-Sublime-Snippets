@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+workflow.getPooledTasks("A String specifying the id of the authority");
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getPooledTasks</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.js</scope>
+	 <description>Workflow Manager</description>
+</snippet>
