@@ -33,7 +33,7 @@
           <p>A collection of sublime text snippets useful for coding Alfresco webscripts, and scripts</p>
 
           <h2>Main Controller Script</h2>
-          <p>Trigger: main</p>            
+          <h3>Trigger: main</h3>            
           <code>
             /*<br/>
 description: archivo.js<br/>
@@ -47,6 +47,41 @@ try{  <br/>
   
   model.result=" ";<br/>
   
+}catch(e){<br/>
+  model.error = e.message;<br/>
+}<br/>
+          </code>
+
+          <h3>Trigger: main path type</h3>            
+          <code>
+           /*<br/>
+description: archivo.js<br/>
+author: Oscar Daniel Torres Hdez : odtorres@uci.cu<br/>
+organization: CIGED-UCI<br/>
+published: 2015<br/>
+version: v0.1.0 <br/>
+*/<br/>
+try{  <br/>
+  
+  var path = 'PATH:"/app:company_home//*" AND TYPE:"pref:name"';  <br/>
+  model.result = search.luceneSearch('workspace://SpacesStore', path);<br/>
+  
+}catch(e){<br/>
+  model.error = e.message;<br/>
+}<br/>
+          </code>
+
+          <h3>Trigger: main findNode</h3>            
+          <code>
+           /*<br/>
+description: archivo.js<br/>
+author: Oscar Daniel Torres Hdez : odtorres@uci.cu<br/>
+organization: CIGED-UCI<br/>
+published: 2015<br/>
+version: v0.1.0<br/>
+*/<br/>
+try{<br/>
+  model.result search.findNode('workspace://SpacesStore/' + uuid);<br/>
 }catch(e){<br/>
   model.error = e.message;<br/>
 }<br/>
