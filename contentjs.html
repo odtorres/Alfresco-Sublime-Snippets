@@ -8,6 +8,13 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
 
+
+    <!---->
+    <link rel="stylesheet" title="Default" href="stylesheets/styles/default.css">
+    <!---->
+    <link rel="stylesheet" type="text/css" href="">
+    <script type="text/javascript" src="javascripts/highlight.pack.js"></script>    
+    <script>hljs.initHighlightingOnLoad();</script>
     <title>Alfresco-sublime-snippets by odtorres</title>
   </head>
 
@@ -35,130 +42,130 @@
           <h2>Main Controller Script !</h2>
           <h3>Trigger: main</h3> 
           <p>Output:</p>            
-          <blockquote>
-            /*<br/>
-description: archivo.js<br/>
-author: Oscar Daniel Torres Hdez : odtorres@uci.cu<br/>
-organization: CIGED-UCI<br/>
-published: 2015<br/>
-version: v0.1.0<br/>
+          <pre><code class="javascript">
+/*
+  description: archivo.js
+  author: Oscar Daniel Torres Hdez : odtorres@uci.cu
+  organization: CIGED-UCI
+  published: 2015
+  version: v0.1.0
 */          
-          <br/>
-try{  <br/>
+          
+try{  
   
-  model.result=" ";<br/>
+  model.result=" ";
   
-}catch(e){<br/>
-  model.error = e.message;<br/>
-}<br/>
-          </blockquote>
+}catch(e){
+  model.error = e.message;
+}
+          </code></pre>
 
           <h3>Trigger: main path type</h3> 
           <p>Output:</p>           
-          <blockquote>
-           /*<br/>
-description: archivo.js<br/>
-author: Oscar Daniel Torres Hdez : odtorres@uci.cu<br/>
-organization: CIGED-UCI<br/>
-published: 2015<br/>
-version: v0.1.0 <br/>
-*/<br/>
-try{  <br/>
+          <pre><code class="js">
+/*
+  description: archivo.js
+  author: Oscar Daniel Torres Hdez : odtorres@uci.cu
+  organization: CIGED-UCI
+  published: 2015
+  version: v0.1.0 
+*/
+try{  
   
-  var path = 'PATH:"/app:company_home//*" AND TYPE:"pref:name"';  <br/>
-  model.result = search.luceneSearch('workspace://SpacesStore', path);<br/>
+  var path = 'PATH:"/app:company_home//*" AND TYPE:"pref:name"';  
+  model.result = search.luceneSearch('workspace://SpacesStore', path);
   
-}catch(e){<br/>
-  model.error = e.message;<br/>
-}<br/>
-          </blockquote>
+}catch(e){
+  model.error = e.message;
+}
+          </code></pre>
 
           <h3>Trigger: main findNode</h3> 
           <p>Output:</p>           
-          <blockquote>
-           /*<br/>
-description: archivo.js<br/>
-author: Oscar Daniel Torres Hdez : odtorres@uci.cu<br/>
-organization: CIGED-UCI<br/>
-published: 2015<br/>
-version: v0.1.0<br/>
-*/<br/>
-try{<br/>
-  model.result search.findNode('workspace://SpacesStore/' + uuid);<br/>
-}catch(e){<br/>
-  model.error = e.message;<br/>
-}<br/>
-          </blockquote>
+          <pre><code class="javascript">
+/*
+  description: archivo.js
+  author: Oscar Daniel Torres Hdez : odtorres@uci.cu
+  organization: CIGED-UCI
+  published: 2015
+  version: v0.1.0
+*/
+try{
+  model.result search.findNode('workspace://SpacesStore/' + uuid);
+}catch(e){
+  model.error = e.message;
+}
+          </code></pre>
 
           <h3>Trigger: validate args</h3> 
           <p>Output:</p>           
-          <blockquote>           
-if (args.to == null)<br/>
-{<br/>
-   status.code = 400;<br/>
-   status.message = "Some argumments are missing";<br/>
-   status.redirect = true;<br/>
-}<br/>
-else<br/>
-{<br/>
-   model.to = args.to; <br/>
-}<br/>
-          </blockquote>
+          <pre><code class="javascript">           
+if (args.to == null)
+{
+   status.code = 400;
+   status.message = "Some argumments are missing";
+   status.redirect = true;
+}
+else
+{
+   model.to = args.to; 
+}
+          </code></pre>
           <br/>
 
 <!-------- Root Objects  -------->
 <h2>Root Objects !</h2>
 <br/>
           <h3>Trigger: actions</h3> 
-          <p>Output: <blockquote>actions</blockquote></p>
+          <p>Output: <pre><code class="javascript">actions</code></pre></p>
           <h3>Trigger: args</h3> 
-          <p>Output: <blockquote>args</blockquote></p>
+          <p>Output: <pre><code class="javascript">args</code></pre></p>
           <h3>Trigger: argsM</h3> 
-          <p>Output: <blockquote>argsM.var</blockquote></p>
+          <p>Output: <pre><code class="javascript">argsM.var</code></pre></p>
           <h3>Trigger: avm</h3> 
-          <p>Output: <blockquote>avm</blockquote></p>
+          <p>Output: <pre><code class="javascript">avm</code></pre></p>
           <h3>Trigger: classification</h3> 
-          <p>Output: <blockquote>classification</blockquote></p>
+          <p>Output: <pre><code class="javascript">classification</code></pre></p>
           <h3>Trigger: companyhome</h3> 
-          <p>Output: <blockquote>companyhome</blockquote></p>
+          <p>Output: <pre><code class="javascript">companyhome</code></pre></p>
           <h3>Trigger: config</h3> 
-          <p>Output: <blockquote>
-            var c = new XML(config.script);<br/>
+          <p>Output: <pre><code class="javascript">
+            var c = new XML(config.script);
             c.propertyValue;
-          </blockquote></p>
+          </code></pre></p>
           <h3>Trigger: crossRepoCopy</h3> 
-          <p>Output: <blockquote>crossRepoCopy</blockquote></p>
+          <p>Output: <pre><code class="javascript">crossRepoCopy</code></pre></p>
           <h3>Trigger: document</h3> 
-          <p>Output: <blockquote>document</blockquote></p>
+          <p>Output: <pre><code class="javascript">document</code></pre></p>
           <h3>Trigger: groups</h3> 
-          <p>Output: <blockquote>groups</blockquote></p>
+          <p>Output: <pre><code class="javascript">groups</code></pre></p>
           <h3>Trigger: invitations</h3> 
-          <p>Output: <blockquote>invitations</blockquote></p>
+          <p>Output: <pre><code class="javascript">invitations</code></pre></p>
           <h3>Trigger: logger</h3> 
-          <p>Output: <blockquote>logger</blockquote></p>
+          <p>Output: <pre><code class="javascript">logger</code></pre></p>
           <h3>Trigger: msg</h3> 
-          <p>Output: <blockquote>msg("value")</blockquote></p>
+          <p>Output: <pre><code class="javascript">msg("value")</code></pre></p>
           <h3>Trigger: people</h3> 
-          <p>Output: <blockquote>people</blockquote></p>
+          <p>Output: <pre><code class="javascript">people</code></pre></p>
           <h3>Trigger: person</h3> 
-          <p>Output: <blockquote>person</blockquote></p>
+          <p>Output: <pre><code class="javascript">person</code></pre></p>
           <h3>Trigger: script</h3> 
-          <p>Output: <blockquote>script</blockquote></p>
+          <p>Output: <pre><code class="javascript">script</code></pre></p>
           <h3>Trigger: sites</h3> 
-          <p>Output: <blockquote>sites</blockquote></p>
+          <p>Output: <pre><code class="javascript">sites</code></pre></p>
           <h3>Trigger: space</h3> 
-          <p>Output: <blockquote>space</blockquote></p>
+          <p>Output: <pre><code class="javascript">space</code></pre></p>
           <h3>Trigger: transfer</h3> 
-          <p>Output: <blockquote>transfer</blockquote></p>
+          <p>Output: <pre><code class="javascript">transfer</code></pre></p>
           <h3>Trigger: userhome</h3> 
-          <p>Output: <blockquote>userhome</blockquote></p>
+          <p>Output: <pre><code class="javascript">userhome</code></pre></p>
           <h3>Trigger: utils</h3> 
-          <p>Output: <blockquote>utils</blockquote></p>
+          <p>Output: <pre><code class="javascript">utils</code></pre></p>
           <h3>Trigger: webprojects</h3> 
-          <p>Output: <blockquote>webprojects</blockquote></p>
+          <p>Output: <pre><code class="javascript">webprojects</code></pre></p>
           
           
-          
+          <h2> Work in progress</h2>
           
           
           <h2>
