@@ -18,5 +18,8 @@ A collection of sublime text snippets useful for coding Alfresco webscripts, scr
 4. Content Model
 5. Alfresco web client Forms
 
+## Links
+The official site is at <http://odtorres.github.io/Alfresco-Sublime-Snippets/>.
+
 ## Author
 GitHub: [odtorres](https://github.com/odtorres)
