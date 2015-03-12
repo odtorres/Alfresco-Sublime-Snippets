@@ -32,10 +32,10 @@
 
           <p>A collection of sublime text snippets useful for coding Alfresco webscripts, and scripts</p>
 
-          <h2>Main Controller Script</h2>
+          <h2>Main Controller Script !</h2>
           <h3>Trigger: main</h3> 
           <p>Output:</p>            
-          <code>
+          <blockquote>
             /*<br/>
 description: archivo.js<br/>
 author: Oscar Daniel Torres Hdez : odtorres@uci.cu<br/>
@@ -51,11 +51,11 @@ try{  <br/>
 }catch(e){<br/>
   model.error = e.message;<br/>
 }<br/>
-          </code>
+          </blockquote>
 
           <h3>Trigger: main path type</h3> 
           <p>Output:</p>           
-          <code>
+          <blockquote>
            /*<br/>
 description: archivo.js<br/>
 author: Oscar Daniel Torres Hdez : odtorres@uci.cu<br/>
@@ -71,11 +71,11 @@ try{  <br/>
 }catch(e){<br/>
   model.error = e.message;<br/>
 }<br/>
-          </code>
+          </blockquote>
 
           <h3>Trigger: main findNode</h3> 
           <p>Output:</p>           
-          <code>
+          <blockquote>
            /*<br/>
 description: archivo.js<br/>
 author: Oscar Daniel Torres Hdez : odtorres@uci.cu<br/>
@@ -88,7 +88,79 @@ try{<br/>
 }catch(e){<br/>
   model.error = e.message;<br/>
 }<br/>
-          </code>
+          </blockquote>
+
+          <h3>Trigger: validate args</h3> 
+          <p>Output:</p>           
+          <blockquote>           
+if (args.to == null)<br/>
+{<br/>
+   status.code = 400;<br/>
+   status.message = "Some argumments are missing";<br/>
+   status.redirect = true;<br/>
+}<br/>
+else<br/>
+{<br/>
+   model.to = args.to; <br/>
+}<br/>
+          </blockquote>
+          <br/>
+
+<!-------- Root Objects  -------->
+<h2>Root Objects !</h2>
+<br/>
+          <h3>Trigger: actions</h3> 
+          <p>Output: <blockquote>actions</blockquote></p>
+          <h3>Trigger: args</h3> 
+          <p>Output: <blockquote>args</blockquote></p>
+          <h3>Trigger: argsM</h3> 
+          <p>Output: <blockquote>argsM.var</blockquote></p>
+          <h3>Trigger: avm</h3> 
+          <p>Output: <blockquote>avm</blockquote></p>
+          <h3>Trigger: classification</h3> 
+          <p>Output: <blockquote>classification</blockquote></p>
+          <h3>Trigger: companyhome</h3> 
+          <p>Output: <blockquote>companyhome</blockquote></p>
+          <h3>Trigger: config</h3> 
+          <p>Output: <blockquote>
+            var c = new XML(config.script);<br/>
+            c.propertyValue;
+          </blockquote></p>
+          <h3>Trigger: crossRepoCopy</h3> 
+          <p>Output: <blockquote>crossRepoCopy</blockquote></p>
+          <h3>Trigger: document</h3> 
+          <p>Output: <blockquote>document</blockquote></p>
+          <h3>Trigger: groups</h3> 
+          <p>Output: <blockquote>groups</blockquote></p>
+          <h3>Trigger: invitations</h3> 
+          <p>Output: <blockquote>invitations</blockquote></p>
+          <h3>Trigger: logger</h3> 
+          <p>Output: <blockquote>logger</blockquote></p>
+          <h3>Trigger: msg</h3> 
+          <p>Output: <blockquote>msg("value")</blockquote></p>
+          <h3>Trigger: people</h3> 
+          <p>Output: <blockquote>people</blockquote></p>
+          <h3>Trigger: person</h3> 
+          <p>Output: <blockquote>person</blockquote></p>
+          <h3>Trigger: script</h3> 
+          <p>Output: <blockquote>script</blockquote></p>
+          <h3>Trigger: sites</h3> 
+          <p>Output: <blockquote>sites</blockquote></p>
+          <h3>Trigger: space</h3> 
+          <p>Output: <blockquote>space</blockquote></p>
+          <h3>Trigger: transfer</h3> 
+          <p>Output: <blockquote>transfer</blockquote></p>
+          <h3>Trigger: userhome</h3> 
+          <p>Output: <blockquote>userhome</blockquote></p>
+          <h3>Trigger: utils</h3> 
+          <p>Output: <blockquote>utils</blockquote></p>
+          <h3>Trigger: webprojects</h3> 
+          <p>Output: <blockquote>webprojects</blockquote></p>
+          
+          
+          
+          
+          
           <h2>
           <a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h2>
 
