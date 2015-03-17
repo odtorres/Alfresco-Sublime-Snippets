@@ -38,7 +38,7 @@
         <h1>Alfresco JavaScript API</h1>
 
           <p>A collection of sublime text snippets useful for coding Alfresco webscripts, and scripts</p>
-
+<!-------- Main Controller Script   -------->
           <h2>Main Controller Script !</h2>
           <h3>Trigger: main</h3> 
           <p>Output:</p>            
@@ -151,6 +151,25 @@ else
           <p>Output: <pre><code class="javascript">person</code></pre></p>
           <h3>Trigger: script</h3> 
           <p>Output: <pre><code class="javascript">script</code></pre></p>
+          <h3>Trigger: search</h3> 
+          <p>Output: <pre><code class="javascript">search</code></pre></p>
+          <h3>Trigger: search text</h3> 
+          <p>Output: <pre><code class="javascript">search.luceneSearch("TEXT:alfresco");</code></pre></p>
+          <h3>Trigger: search workspace text</h3> 
+          <p>Output: <pre><code class="javascript">search.luceneSearch("workspace://SpacesStore", "TEXT:site");</code></pre></p>
+          <h3>Trigger: search text sortcolumn asc</h3> 
+          <p>Output: <pre><code class="javascript">search.luceneSearch("TEXT:alfresco", "@cm:modified", false);</code></pre></p>
+          <h3>Trigger:search workspace text sortcolumn asc</h3> 
+          <p>Output: <pre><code class="javascript">search.luceneSearch("workspace://SpacesStore","TEXT:alfresco", "@cm:modified", false);</code></pre></p>
+          <h3>Trigger:search xpath</h3> 
+          <p>Output: <pre><code class="javascript">search.xpathSearch(string xpath);</code></pre></p>
+          <h3>Trigger:search workspace xpath</h3> 
+          <p>Output: <pre><code class="javascript">search.xpathSearch("workspace://SpacesStore", string xpath);</code></pre></p>
+          <h3>Trigger:search noderef</h3> 
+          <p>Output: <pre><code class="javascript">search.findNode('workspace://SpacesStore/'+uuid);</code></pre></p>
+          <h3>Trigger:search type</h3> 
+          <p>Output: <pre><code class="javascript">search.luceneSearch('workspace://SpacesStore', 'PATH:"/app:company_home//*" AND TYPE:"p:name"');</code></pre></p>
+
           <h3>Trigger: sites</h3> 
           <p>Output: <pre><code class="javascript">sites</code></pre></p>
           <h3>Trigger: space</h3> 
@@ -163,11 +182,54 @@ else
           <p>Output: <pre><code class="javascript">utils</code></pre></p>
           <h3>Trigger: webprojects</h3> 
           <p>Output: <pre><code class="javascript">webprojects</code></pre></p>
-          
-          
-          <h2> Work in progress</h2>
-          
-          
+        
+        <!-------- ScriptNode API  -------->
+        <h2>ScriptNode API !</h2>
+        <br/>          
+        <h3>Trigger: activeWorkflows</h3> 
+        <p>Output: <pre><code class="javascript">activeWorkflows</code></pre></p>
+        <h3>Trigger: aspects</h3> 
+        <p>Output: <pre><code class="javascript">aspects[0];</code></pre></p>
+        <h3>Trigger: assocs</h3> 
+        <p>Output: <pre><code class="javascript">assocs["cm:translations"][0];</code></pre></p>
+        <h3>Trigger: childAssocs</h3> 
+        <p>Output: <pre><code class="javascript">childAssocs["fm:discussion"][0];</code></pre></p>
+        <h3>Trigger: childByNamePath</h3> 
+        <p>Output: <pre><code class="javascript">childByNamePath("QA/Performance/Testing");</code></pre></p>
+        <h3>Trigger: children</h3> 
+        <p>Output: <pre><code class="javascript">children[0];</code></pre></p>
+        <h3>Trigger: childrenByXPath</h3> 
+        <p>Output: <pre><code class="javascript">childrenByXPath("*[@cm:name='Finance Documents']/*");</code></pre></p>
+        <h3>Trigger: content</h3> 
+        <p>Output: <pre><code class="javascript">content</code></pre></p>
+        <h3>Trigger: getSiteShortName</h3> 
+        <p>Output: <pre><code class="javascript">getSiteShortName();</code></pre></p>
+        <h3>Trigger: isContainer</h3> 
+        <p>Output: <pre><code class="javascript">isContainer</code></pre></p>
+        <h3>Trigger: isDocument</h3> 
+        <p>Output: <pre><code class="javascript">isDocument</code></pre></p>
+        <h3>Trigger: name</h3> 
+        <p>Output: <pre><code class="javascript">name</code></pre></p>
+        <h3>Trigger: nodeRef</h3> 
+        <p>Output: <pre><code class="javascript">nodeRef</code></pre></p>
+        <h3>Trigger: parent</h3> 
+        <p>Output: <pre><code class="javascript">parent</code></pre></p>
+        <h3>Trigger: parentAssocs</h3> 
+        <p>Output: <pre><code class="javascript">parentAssocs["cm:contains"][0];</code></pre></p>
+        <h3>Trigger: properties</h3> 
+        <p>Output: <pre><code class="javascript">properties["name"];</code></pre></p>
+        <h3>Trigger: qnamePath</h3> 
+        <p>Output: <pre><code class="javascript">qnamePath</code></pre></p>
+        <h3>Trigger: save</h3> 
+        <p>Output: <pre><code class="javascript">save();</code></pre></p>
+        <h3>Trigger: size</h3> 
+        <p>Output: <pre><code class="javascript">size</code></pre></p>
+        <h3>Trigger: sourceAssocs</h3> 
+        <p>Output: <pre><code class="javascript">sourceAssocs["cm:translations"][0];</code></pre></p>
+        <h3>Trigger: sourceAssocs</h3> 
+        <p>Output: <pre><code class="javascript">sourceAssocs["cm:translations"][0];</code></pre></p>
+        <h2> Work in progress</h2>
+
           <h2>
           <a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h2>
 
