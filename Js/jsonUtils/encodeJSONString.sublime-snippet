@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+jsonUtils.encodeJSONString(value);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsonUtils.encodeJSONString</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	 <scope>source.js</scope>
+	 <description>Json Utils</description>
+</snippet>
