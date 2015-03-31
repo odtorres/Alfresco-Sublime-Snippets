@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getId();
+workflow.getId();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>getId</tabTrigger> 

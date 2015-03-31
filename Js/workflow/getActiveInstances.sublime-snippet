@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-getActiveInstances();
+workflow.getActiveInstances();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>getActiveInstances</tabTrigger> 
