@@ -17,7 +17,7 @@
 			</form>
 		</forms>
 </config>]]></content>
-	<tabTrigger>config-add-edit</tabTrigger>
+	<tabTrigger>config add edit</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

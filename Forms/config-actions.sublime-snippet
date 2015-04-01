@@ -40,7 +40,7 @@
 			</actionGroup>
 		</actionGroups>
 </config>]]></content>
-	<tabTrigger>config-actions</tabTrigger>
+	<tabTrigger>config actions</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

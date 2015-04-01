@@ -6,7 +6,7 @@
 	</control>
 </field>
 ]]></content>
-	<tabTrigger>field-date</tabTrigger>
+	<tabTrigger>field date</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

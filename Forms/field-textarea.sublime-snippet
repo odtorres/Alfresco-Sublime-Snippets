@@ -5,7 +5,7 @@
 	</control>
 </field>
 ]]></content>
-	<tabTrigger>field-textarea</tabTrigger>
+	<tabTrigger>field textarea</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

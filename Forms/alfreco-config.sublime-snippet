@@ -3,7 +3,7 @@
 <alfresco-config>
 	
 </alfresco-config>]]></content>
-	<tabTrigger>alfresco-config</tabTrigger>
+	<tabTrigger>alfresco config</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

@@ -1,5 +1,5 @@
 <snippet>
-	<content><![CDATA[\${}]]></content>
-	<tabTrigger>${}</tabTrigger>	
-	<description>var freemarker-webs</description>
+	<content><![CDATA[\${$1}]]></content>
+	<tabTrigger>var</tabTrigger>	
+	<description>Alfresco freemarker</description>
 </snippet>

@@ -11,7 +11,7 @@
     </control>
 </field>
 ]]></content>
-	<tabTrigger>field-selectone</tabTrigger>
+	<tabTrigger>field selectone</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

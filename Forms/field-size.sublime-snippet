@@ -4,7 +4,7 @@
 	<control template="/org/alfresco/components/form/controls/size.ftl" />
 </field>
 ]]></content>
-	<tabTrigger>field-size</tabTrigger>
+	<tabTrigger>field size</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

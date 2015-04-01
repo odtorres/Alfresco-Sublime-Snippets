@@ -4,7 +4,7 @@
 	<control template="/org/alfresco/components/form/controls/textfield.ftl" />
 </field>
 ]]></content>
-	<tabTrigger>field-textfield</tabTrigger>
+	<tabTrigger>field textfield</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

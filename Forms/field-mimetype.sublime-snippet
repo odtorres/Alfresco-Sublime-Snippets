@@ -4,7 +4,7 @@
 	<control template="/org/alfresco/components/form/controls/mimetype.ftl" />
 </field>
 ]]></content>
-	<tabTrigger>field-mimetype</tabTrigger>
+	<tabTrigger>field mimetype</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>
