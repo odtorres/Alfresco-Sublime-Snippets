@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+
+    <!---->
+    <link rel="stylesheet" title="Default" href="stylesheets/styles/default.css">
+    <!---->
+    <link rel="stylesheet" type="text/css" href="">
+    <script type="text/javascript" src="javascripts/highlight.pack.js"></script>    
+    <script>hljs.initHighlightingOnLoad();</script>
+    <title>Alfresco-sublime-snippets by odtorres</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1><a href="http://odtorres.github.io/Alfresco-Sublime-Snippets/">Alfresco-sublime-snippets</a></h1>
+        <h2>A collection of sublime text snippets useful for coding Alfresco webscripts, scripts, forms and content models.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/odtorres/Alfresco-Sublime-Snippets/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/odtorres/Alfresco-Sublime-Snippets/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/odtorres/Alfresco-Sublime-Snippets" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>Alfresco Content Model</h1>
+
+          <p>A collection of sublime text snippets useful for coding Alfresco Content Model</p>
+<!-------- Main Controller Script   -------->
+          <br/>
+          <h2>Main Triggers !</h2>
+          <h3>Trigger: model</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;?xml version="1.0" encoding="UTF-8" standalone="no"?&gt;
+&lt;model xmlns="http://www.alfresco.org/model/dictionary/1.0" name="$1:model"&gt;
+  &lt;description&gt;$TM_FILENAME&lt;/description&gt;
+  &lt;author&gt;$TM_FULLNAME : $TM_EMAIL&lt;/author&gt;
+  &lt;published&gt;$TM_YEAR&lt;/published&gt;
+  &lt;version&gt;1.0&lt;/version&gt;
+  
+  &lt;imports&gt;
+    &lt;import prefix="d" uri="http://www.alfresco.org/model/dictionary/1.0" /&gt;
+    &lt;import prefix="cm" uri="http://www.alfresco.org/model/content/1.0" /&gt;
+    &lt;import prefix="sys" uri="http://www.alfresco.org/model/system/1.0" /&gt;
+  &lt;/imports&gt;
+
+  &lt;namespaces&gt;
+    &lt;namespace prefix="$1" uri="http://www.org/v3.1/module/$2/model/1.0" /&gt;
+  &lt;/namespaces&gt;
+  
+  &lt;constraints&gt;
+    &lt;constraint name="$1:x-list" type="LIST"&gt;
+      &lt;parameter name="allowedValues"&gt;
+        &lt;list&gt;
+          &lt;value&gt;1&lt;/value&gt;
+          &lt;value&gt;2&lt;/value&gt;
+          &lt;value&gt;3&lt;/value&gt;
+        &lt;/list&gt;
+      &lt;/parameter&gt;
+    &lt;/constraint&gt;
+  &lt;/constraints&gt;
+
+  &lt;types&gt;
+    &lt;type name="$1:name"&gt;
+      &lt;title&gt;Title&lt;/title&gt;
+      &lt;parent&gt;sys:base&lt;/parent&gt;
+      &lt;properties&gt;
+        &lt;property name="$1:date"&gt;
+          &lt;title&gt;Date&lt;/title&gt;
+          &lt;type&gt;d:date&lt;/type&gt;
+        &lt;/property&gt;
+        &lt;property name="$1:list"&gt;
+          &lt;title&gt;List&lt;/title&gt;
+          &lt;type&gt;d:text&lt;/type&gt;
+          &lt;constraints&gt;
+            &lt;constraint ref="$1:x-list" /&gt;
+          &lt;/constraints&gt;
+        &lt;/property&gt;
+        &lt;property name="$1:text"&gt;
+          &lt;title&gt;Text&lt;/title&gt;
+          &lt;type&gt;d:text&lt;/type&gt;
+        &lt;/property&gt;       
+      &lt;/properties&gt;
+      &lt;mandatory-aspects&gt;
+        &lt;aspect&gt;cm:auditable&lt;/aspect&gt;
+        &lt;aspect&gt;cm:author&lt;/aspect&gt;
+      &lt;/mandatory-aspects&gt;
+    &lt;/type&gt;
+  &lt;/types&gt;
+  
+  &lt;aspects&gt;
+    &lt;aspect name="$1:x-aspect"&gt;
+      
+    &lt;/aspect&gt;
+  &lt;/aspects&gt;
+&lt;/model&gt;  
+    
+  
+          </code></pre>
+          <br/>
+          <h3>Trigger: association</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;association name="$1:$2"&gt;
+   &lt;title&gt;Title&lt;/title&gt;
+   &lt;source&gt;
+      &lt;mandatory&gt;false&lt;/mandatory&gt;
+      &lt;many&gt;true&lt;/many&gt;
+   &lt;/source&gt;
+   &lt;target&gt;
+      &lt;class&gt;cm:person&lt;/class&gt;
+      &lt;mandatory&gt;false&lt;/mandatory&gt;
+      &lt;many&gt;false&lt;/many&gt;
+   &lt;/target&gt;
+&lt;/association&gt;
+          </code></pre>   
+          <br/>
+          <h3>Trigger: associations</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;associations&gt;
+  
+&lt;/associations&gt;
+          </code></pre>        
+          <br/>
+          <h3>Trigger: child association</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;child-association name="$1:$2"&gt;
+   &lt;source&gt;
+    &lt;mandatory&gt;false&lt;/mandatory&gt;
+    &lt;many&gt;false&lt;/many&gt;
+   &lt;/source&gt;
+   &lt;target&gt;
+    &lt;class&gt;cm:folder&lt;/class&gt;
+    &lt;mandatory enforced="true"&gt;true&lt;/mandatory&gt;
+    &lt;many&gt;false&lt;/many&gt;
+   &lt;/target&gt;
+   &lt;duplicate&gt;false&lt;/duplicate&gt;
+&lt;/child-association&gt;
+          </code></pre> 
+          <br/>
+          <h3>Trigger: constraint List</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;constraint name="$1:$2" type="LIST"&gt;
+  &lt;parameter name="allowedValues"&gt;
+    &lt;list&gt;
+      &lt;value&gt;1&lt;/value&gt;
+      &lt;value&gt;2&lt;/value&gt;
+      &lt;value&gt;3&lt;/value&gt;
+    &lt;/list&gt;
+  &lt;/parameter&gt;
+&lt;/constraint&gt;
+          </code></pre> 
+          <br/>
+          <h3>Trigger: constraints MINMAX</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;constraint name="$1:$2" type="MINMAX"&gt;
+ &lt;parameter name="minValue"&gt;
+    &lt;value&gt;0&lt;/value&gt;
+ &lt;/parameter&gt;
+ &lt;parameter name="maxValue"&gt;
+    &lt;value&gt;100&lt;/value&gt;
+ &lt;/parameter&gt;
+&lt;/constraint&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: constraints</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;constraints&gt;
+  
+&lt;/constraints&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: description</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;description&gt;description&lt;/description&gt;
+&lt;author&gt;Author&lt;/author&gt;
+&lt;published&gt;Date&lt;/published&gt;
+&lt;version&gt;1.0&lt;/version&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: imports</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;imports&gt;
+  &lt;import prefix="d" uri="http://www.alfresco.org/model/dictionary/1.0" /&gt;
+  &lt;import prefix="cm" uri="http://www.alfresco.org/model/content/1.0" /&gt;
+  &lt;import prefix="sys" uri="http://www.alfresco.org/model/system/1.0" /&gt;
+&lt;/imports&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: multiple</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;multiple&gt;true&lt;/multiple&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: namespaces</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;namespaces&gt;
+  &lt;namespace prefix="$1" uri="http://www.org/v3.1/module/$2/model/1.0" /&gt;
+&lt;/namespaces&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: propertyDate</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;property name="$1:date"&gt;
+  &lt;title&gt;Date&lt;/title&gt;
+  &lt;type&gt;d:date&lt;/type&gt;
+&lt;/property&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: propertyInt</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;property name="$1:int"&gt;
+  &lt;title&gt;Int&lt;/title&gt;
+  &lt;type&gt;d:int&lt;/type&gt;  
+&lt;/property&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: propertyList</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;property name="$1:list"&gt;
+  &lt;title&gt;List&lt;/title&gt;
+  &lt;type&gt;d:text&lt;/type&gt;
+  &lt;constraints&gt;
+    &lt;constraint ref="$1:x-list" /&gt;
+  &lt;/constraints&gt;
+&lt;/property&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: propertyText</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;property name="$1:text"&gt;
+  &lt;title&gt;Text&lt;/title&gt;
+  &lt;type&gt;d:text&lt;/type&gt;
+&lt;/property&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: types</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;types&gt;
+  &lt;type name="$1:name"&gt;
+    &lt;title&gt;Title&lt;/title&gt;
+    &lt;parent&gt;sys:base&lt;/parent&gt;
+    &lt;properties&gt;
+      &lt;property name="$1:date"&gt;
+        &lt;title&gt;Date&lt;/title&gt;
+        &lt;type&gt;d:date&lt;/type&gt;
+      &lt;/property&gt;
+      &lt;property name="$1:list"&gt;
+        &lt;title&gt;List&lt;/title&gt;
+        &lt;type&gt;d:text&lt;/type&gt;
+        &lt;constraints&gt;
+          &lt;constraint ref="$1:x-list" /&gt;
+        &lt;/constraints&gt;
+      &lt;/property&gt;
+      &lt;property name="$1:text"&gt;
+        &lt;title&gt;Text&lt;/title&gt;
+        &lt;type&gt;d:text&lt;/type&gt;
+      &lt;/property&gt;       
+    &lt;/properties&gt;
+    &lt;mandatory-aspects&gt;
+      &lt;aspect&gt;cm:auditable&lt;/aspect&gt;
+      &lt;aspect&gt;cm:author&lt;/aspect&gt;
+    &lt;/mandatory-aspects&gt;
+  &lt;/type&gt;
+&lt;/types&gt;
+          </code></pre>
+        <br/>
+          <h2>
+          <a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h2>
+
+          <p>GitHub: <a href="https://github.com/odtorres">odtorres</a></p>
+      </section>
+    </div>
+  </body>
+</html>
