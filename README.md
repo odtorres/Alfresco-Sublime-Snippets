@@ -23,6 +23,8 @@
 ## Links
 The official site is at <http://odtorres.github.io/Alfresco-Sublime-Snippets/>.
 
+If you need help post your specific question in the [Gitter Chat.](https://gitter.im/odtorres/Alfresco-Sublime-Snippets)
+
 ## Author
 GitHub: [odtorres](https://github.com/odtorres)
 
