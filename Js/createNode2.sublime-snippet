@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+createNode(string name, string type, Array properties);
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>createNode2</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>ScriptNode API</description>
+</snippet>
