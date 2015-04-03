@@ -11,7 +11,7 @@
  * Windows: C:\Users\yourUser\AppData\Roaming\Sublime Text ...\Packages\User
 
 ## Usage
-![screencast](http://i.imgur.com/eFXu5Hl.gif)
+![screencast](http://i.imgur.com/2fPGHUV.gif)
 
 ## Contents
 1. Alfresco JavaScript API
