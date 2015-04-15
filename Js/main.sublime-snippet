@@ -25,7 +25,7 @@ version: v0.1.0
 */
 try{	
 	
-	model.result=" ";
+	model.results=" ";
 	
 }catch(e){
 	model.error = e.message;

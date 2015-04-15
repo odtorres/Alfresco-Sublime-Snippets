@@ -24,7 +24,7 @@ published: ${5:$TM_YEAR}
 version: v0.1.0
 */
 try{
-	model.result search.findNode('workspace://SpacesStore/' + uuid);
+	model.results= search.findNode('workspace://SpacesStore/' + uuid);
 }catch(e){
 	model.error = e.message;
 }

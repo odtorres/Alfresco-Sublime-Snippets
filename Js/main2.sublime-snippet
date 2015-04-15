@@ -26,7 +26,7 @@ version: v0.1.0
 try{	
 	
 	var path = 'PATH:"/app:company_home//*" AND TYPE:"pref:name"';	
-	model.result = search.luceneSearch('workspace://SpacesStore', path);
+	model.results = search.luceneSearch('workspace://SpacesStore', path);
 	
 }catch(e){
 	model.error = e.message;
