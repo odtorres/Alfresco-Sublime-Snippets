@@ -21,8 +21,10 @@
 	<description>(optional) is documentation for the Web Script </description>
 	<url>/org/helloworld?to={name}</url>
 	<url>/org/hello/world?to={name}</url>  
-	<format default="html">extension</format>
-	<authentication>user</authentication>
+   <authentication>user</authentication>
+
+	<format default="html">extension</format>   
+   <family>name of family</family>	
 </webscript>]]></content>
 	<tabTrigger>webscript</tabTrigger>
 	<scope>text.xml</scope>
