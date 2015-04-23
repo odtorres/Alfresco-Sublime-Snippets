@@ -16,7 +16,7 @@
 -->
 <snippet>
 	<content><![CDATA[<format default="html">extension</format>]]></content>
-	<tabTrigger>format extension</tabTrigger>
+	<tabTrigger>format html extension</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Webscript.desc.xml</description>
 </snippet>
