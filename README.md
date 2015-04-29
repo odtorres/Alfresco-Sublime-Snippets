@@ -8,13 +8,13 @@
 
 ## Installation
 
-#Through Sublime Package Manager
+###Through Sublime Package Manager
 
 1. Ctrl+Shift+P or Cmd+Shift+P in Linux/Windows/OS X
 2. Type install, select Package Control: Install Package
 3. Type alfresco, select Alfresco-Sublime-Snippets
 
-#Manually
+###Manually
 
  Download the [.zip](https://github.com/odtorres/Alfresco-Sublime-Snippets/archive/master.zip) file and unzip it into your Sublime Text packages directory.
 
