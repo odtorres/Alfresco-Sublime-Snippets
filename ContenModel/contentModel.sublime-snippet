@@ -47,7 +47,7 @@
 	<types>
 		<type name="$1:name">
 			<title>Title</title>
-			<parent>sys:base</parent>
+			<parent>cm:content</parent>
 			<properties>
 				<property name="$1:date">
 					<title>Date</title>
