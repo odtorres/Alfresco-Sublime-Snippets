@@ -94,7 +94,7 @@
 &lt;/config&gt;
           </code></pre>   
           <br/>
-          <h3>Trigger: config add edit</h3> 
+          <h3>Trigger: config forms</h3> 
           <p>Output:</p>            
           <pre><code class="xml">
 &lt;config evaluator="node-type" condition="$1:$2"&gt;
@@ -114,7 +114,37 @@
       &lt;/form&gt;
     &lt;/forms&gt;
 &lt;/config&gt;
-          </code></pre>        
+          </code></pre>  
+          <br/>
+          <h3>Trigger: config aspects</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;config evaluator="string-compare" condition="DocumentLibrary"&gt;
+  &lt;aspects&gt;   
+   &lt;visible&gt;
+       &lt;aspect name="$1:$2" /&gt;       
+   &lt;/visible&gt;
+
+   &lt;addable&gt;
+   &lt;/addable&gt;
+   
+   &lt;removeable&gt;
+   &lt;/removeable&gt;
+  &lt;/aspects&gt;
+&lt;/config&gt;
+          </code></pre>
+          <br/>
+          <h3>Trigger: config types</h3> 
+          <p>Output:</p>            
+          <pre><code class="xml">
+&lt;config evaluator="string-compare" condition="DocumentLibrary"&gt;
+  &lt;types&gt;
+     &lt;type name="cm:content"&gt;
+         &lt;subtype name="$1:$2" /&gt;         
+     &lt;/type&gt;     
+ &lt;/types&gt;
+&lt;/config&gt;
+          </code></pre>      
           <br/>
           <h3>Trigger: field date</h3> 
           <p>Output:</p>            
