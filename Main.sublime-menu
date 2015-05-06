@@ -6,32 +6,32 @@
     {
       "caption": "New GET WebService",       
       "command": "exec",
-      "args": {"shell_cmd": "echo. > new_service.get.desc.xml & echo. > new_service.get.js & echo. > new_service.get.html.ftl"}
+      "args": {"shell_cmd": "echo webscript > new_service.get.desc.xml & echo main > new_service.get.js & echo result > new_service.get.html.ftl"}
     },
     {
       "caption": "New POST WebService",       
       "command": "exec",
-      "args": {"shell_cmd": "echo. > new_service.post.desc.xml & echo. > new_service.post.js & echo. > new_service.post.json.ftl"}
+      "args": {"shell_cmd": "echo webscript > new_service.post.desc.xml & echo main > new_service.post.js & echo result > new_service.post.json.ftl"}
     },
     {
       "caption": "New DELETE WebService",      
       "command": "exec",
-      "args": {"shell_cmd": "echo. > new_service.delete.desc.xml & echo. > new_service.delete.js & echo. > new_service.delete.json.ftl"}
+      "args": {"shell_cmd": "echo webscript > new_service.delete.desc.xml & echo main > new_service.delete.js & echo result > new_service.delete.json.ftl"}
     },
     {
       "caption": "New PUT WebService",    
       "command": "exec",
-      "args": {"shell_cmd": "echo. > new_service.put.desc.xml & echo. > new_service.put.js & echo. > new_service.put.json.ftl"}
+      "args": {"shell_cmd": "echo webscript > new_service.put.desc.xml & echo main > new_service.put.js & echo result > new_service.put.json.ftl"}
     },
     {
       "caption": "New Content Model",
       "command": "exec",
-      "args": {"shell_cmd": "echo. > contentModel.xml "}
+      "args": {"shell_cmd": "echo model > contentModel.xml "}
     },
     {
       "caption": "New Form",
       "command": "exec",
-      "args": {"shell_cmd": "echo. > module-config.xml "}
+      "args": {"shell_cmd": "echo config > module-config.xml "}
     }
   ]  
 }]
