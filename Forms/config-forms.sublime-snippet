@@ -33,7 +33,7 @@
 			</form>
 		</forms>
 </config>]]></content>
-	<tabTrigger>config add edit</tabTrigger>
+	<tabTrigger>config forms</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>
