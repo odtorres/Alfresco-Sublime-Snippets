@@ -31,7 +31,7 @@
     {
       "caption": "New Form",
       "command": "exec",
-      "args": {"shell_cmd": "echo config > module-config.xml "}
+      "args": {"shell_cmd": "echo config > module-config-custom.xml "}
     }
   ]  
 }]
