@@ -19,40 +19,40 @@
 <config evaluator="string-compare" condition="DocLibActions">
 		<actions>
 			<!-- type="javascript" -->
-			<action id="add-note" icon="add-note" type="javascript" label="label.action.add-note">
+			<action id="add-element" icon="add-element" type="javascript" label="label.action.add-element">
 				<param name="function">onActionFormDialog</param>
 				<param name="itemKind">action</param>
-				<param name="itemId">add-note</param>
+				<param name="itemId">add-element</param>
 				<param name="mode">create</param>
 				<param name="destination">{node.nodeRef}</param>
-				<param name="successMessage">message.add-note.success</param>
-				<param name="failureMessage">message.add-note.failure</param>
+				<param name="successMessage">message.add-element.success</param>
+				<param name="failureMessage">message.add-element.failure</param>
 			</action>
 			<!--  type="pagelink"  -->
-			<action id="manage-notes" type="pagelink" icon="manage-notes" label="label.actions.manage-notes">
-	            <param name="page">manage-notes?nodeRef={node.nodeRef}</param>
+			<action id="manage-element" type="pagelink" icon="manage-element" label="label.actions.manage-element">
+	            <param name="page">manage-element?nodeRef={node.nodeRef}</param>
 	         </action>
 	         <!--  type="link"  -->
-			<action id="manage-notes" type="link" icon="manage-notes" label="label.actions.manage-notes">
-	            <param name="page">manage-notes?nodeRef={node.nodeRef}</param>
+			<action id="manage-element" type="link" icon="manage-element" label="label.actions.manage-element">
+	            <param name="page">manage-element?nodeRef={node.nodeRef}</param>
 	         </action>
 		</actions>
 		<actionGroups>
 			<actionGroup id="document-browse">
-				<action index="110" id="add-note"/>
-				<action index="110" id="manage-notes"/>
+				<action index="110" id="add-element"/>
+				<action index="110" id="manage-element"/>
    			</actionGroup>
 			<actionGroup id="document-details">
-				<action index="110" id="add-note"/>
-				<action index="110" id="manage-notes"/>
+				<action index="110" id="add-element"/>
+				<action index="110" id="manage-element"/>
 			</actionGroup>
 			<actionGroup id="folder-browse">
-				<action index="102" id="add-note"/>
-				<action index="125" id="manage-notes"/>
+				<action index="102" id="add-element"/>
+				<action index="125" id="manage-element"/>
 			</actionGroup>
 			<actionGroup id="folder-details">
-				<action index="102" id="add-note"/>
-				<action index="125" id="manage-notes"/>
+				<action index="102" id="add-element"/>
+				<action index="125" id="manage-element"/>
 			</actionGroup>
 		</actionGroups>
 </config>]]></content>
