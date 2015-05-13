@@ -19,7 +19,7 @@
 search.luceneSearch('workspace://SpacesStore', 'PATH:"/app:company_home//*" AND TYPE:"p:name"');
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>search type</tabTrigger> 
+	<tabTrigger>search lucene type</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 	<description>Root Objects</description>

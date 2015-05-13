@@ -19,7 +19,7 @@
 search.luceneSearch("workspace://SpacesStore","TEXT:alfresco", "@cm:modified", false);
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>search workspace text sortcolumn asc</tabTrigger> 
+	<tabTrigger>search lucene workspace text sortcolumn</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 	<description>Root Objects</description>

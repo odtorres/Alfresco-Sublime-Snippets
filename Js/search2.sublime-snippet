@@ -19,7 +19,7 @@
 search.luceneSearch("TEXT:alfresco");
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>search text</tabTrigger> 
+	<tabTrigger>search lucene text</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	 <scope>source.js</scope>
 	 <description>Root Objects</description>

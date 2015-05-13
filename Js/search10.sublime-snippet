@@ -16,10 +16,10 @@
 -->
 <snippet>
 	<content><![CDATA[
-search.xpathSearch("workspace://SpacesStore", string xpath);
+search.ISO9075Encode("@cm\:name:\"banana\"");
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>search xpath workspace </tabTrigger> 
+	<tabTrigger>search ISO9075Encode</tabTrigger> 
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 	<description>Root Objects</description>
