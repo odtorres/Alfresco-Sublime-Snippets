@@ -16,12 +16,12 @@
 -->
 <snippet>
 	<content><![CDATA[
-<property name="$1:$2">
-	<title>Int</title>
-	<type>d:int</type>	
+<property name="$1:text">
+	<title>Content</title>
+	<type>d:content</type>
 </property>
 	]]></content>
-	<tabTrigger>propertyInt</tabTrigger>
+	<tabTrigger>propertyContent</tabTrigger>
 	<scope>text.xml</scope>
 	<description>ContenModel.xml</description>
 </snippet>

@@ -17,11 +17,11 @@
 <snippet>
 	<content><![CDATA[
 <property name="$1:$2">
-	<title>Int</title>
-	<type>d:int</type>	
+	<title>boolean</title>
+	<type>d:boolean</type>
 </property>
 	]]></content>
-	<tabTrigger>propertyInt</tabTrigger>
+	<tabTrigger>propertyBoolean</tabTrigger>
 	<scope>text.xml</scope>
 	<description>ContenModel.xml</description>
 </snippet>
