@@ -22,7 +22,7 @@
    </type>
 </default-controls>
   ]]></content>
-	<tabTrigger>default controls</tabTrigger>
+	<tabTrigger>forms default controls</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>

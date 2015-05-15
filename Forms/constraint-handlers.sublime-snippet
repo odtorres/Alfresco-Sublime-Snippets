@@ -17,10 +17,10 @@
 <snippet>
 	<content><![CDATA[
 <constraint-handlers>
-   <constraint type="MANDATORY" validation-handler="Alfresco.forms.validation.mandatory" event="keyup" />
+   <constraint type="MANDATORY" validation-handler="Alfresco.forms.validation.mandatory" event="keyup" [message-id="key"] [message="string"]/>
 </constraint-handlers>
   ]]></content>
-	<tabTrigger>constraint handlers</tabTrigger>
+	<tabTrigger>forms constraint handlers</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Form.xml</description>
 </snippet>
