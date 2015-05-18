@@ -16,11 +16,15 @@
 -->
 <snippet>
 	<content><![CDATA[
-addAspect("app:inlineeditable",{'app:editInline': true});
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>addAspect2</tabTrigger> 
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js</scope>
-	<description>ScriptNode API</description>
+<!-- Registration of new models -->
+<bean id="$1" parent="dictionaryModelBootstrap" depends-on="dictionaryBootstrap">
+    <property name="models">
+        <list>
+            <value>alfresco/module/$2/model/$3.xml</value>
+        </list>
+    </property>
+</bean>]]></content>
+	<tabTrigger>context model</tabTrigger>
+	<scope>text.xml</scope>
+	<description>-context.xml</description>
 </snippet>

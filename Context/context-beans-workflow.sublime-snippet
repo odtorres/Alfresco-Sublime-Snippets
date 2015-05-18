@@ -16,11 +16,20 @@
 -->
 <snippet>
 	<content><![CDATA[
-addAspect("app:inlineeditable",{'app:editInline': true});
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>addAspect2</tabTrigger> 
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js</scope>
-	<description>ScriptNode API</description>
+<!-- Registration of new workflow -->
+<bean id="$1" parent="workflowDeployer">
+    <property name="workflowDefinitions">
+        <list>
+            <props>
+                <prop key="engineId">activiti</prop>
+                <prop key="location">alfresco/module/$2/workflows/$3.bpmn</prop>
+                <prop key="mimetype">text/xml</prop>
+                <prop key="redeploy">false</prop>
+            </props>            
+        </list>
+    </property>
+</bean>]]></content>
+	<tabTrigger>context workflow</tabTrigger>
+	<scope>text.xml</scope>
+	<description>-context.xml</description>
 </snippet>
