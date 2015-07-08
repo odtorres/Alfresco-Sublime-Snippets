@@ -23,11 +23,11 @@
 		{
 	<#-------------- UUID -------------->
 		"uuid" : "\${result.properties['sys:node-uuid']}",
-	<#-------------- Content -------------->
-		<#if result.properties['cm:content']??>
-		"content" : "\${result.properties['sys:node-uuid']}",
+	<#-------------- Name -------------->
+		<#if result.properties['cm:name']??>
+			"name" : "\${result.properties['cm:name']}",
 	   	<#else>
-	   	"content" : null,
+	   	"name" : null,
 		</#if>
 	<#-------------- Created -------------->
 	   	<#if result.properties['cm:created']??>
