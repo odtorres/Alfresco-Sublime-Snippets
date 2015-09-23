@@ -17,31 +17,7 @@
 <snippet>
 	<content><![CDATA[
 <types>
-	<type name="$1:name">
-		<title>Title</title>
-		<parent>sys:base</parent>
-		<properties>
-			<property name="$1:date">
-				<title>Date</title>
-				<type>d:date</type>
-			</property>
-			<property name="$1:list">
-				<title>List</title>
-				<type>d:text</type>
-				<constraints>
-					<constraint ref="$1:x-list" />
-				</constraints>
-			</property>
-			<property name="$1:text">
-				<title>Text</title>
-				<type>d:text</type>
-			</property>				
-		</properties>
-		<mandatory-aspects>
-			<aspect>cm:auditable</aspect>
-			<aspect>cm:author</aspect>
-		</mandatory-aspects>
-	</type>
+	
 </types>]]></content>
 	<tabTrigger>types</tabTrigger>
 	<scope>text.xml</scope>
