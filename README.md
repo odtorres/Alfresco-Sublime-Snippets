@@ -33,6 +33,8 @@ For Sublime Text 3 Linux type <model or <webscript then ctrl+space or tab.
 6. Context files
 
 ## Links
+The Wiki is at <https://github.com/odtorres/Alfresco-Sublime-Snippets/wiki/> (important).
+
 The official site is at <http://odtorres.github.io/Alfresco-Sublime-Snippets/>.
 
 If you need help post your specific question in the [Gitter Chat.](https://gitter.im/odtorres/Alfresco-Sublime-Snippets)
