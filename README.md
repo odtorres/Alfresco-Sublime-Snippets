@@ -1,7 +1,9 @@
 # Alfresco-Sublime-Snippets
 
 [![Join the chat at https://gitter.im/odtorres/Alfresco-Sublime-Snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/odtorres/Alfresco-Sublime-Snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
->A collection of sublime text snippets useful for coding Alfresco webscripts, scripts, forms, content models and -context.xml.
+>A collection of sublime text snippets useful for coding Alfresco webscripts, scripts, forms, content models and -context.xml. 
+
+###Please take a look to the WIKI [here](<https://github.com/odtorres/Alfresco-Sublime-Snippets/wiki/>) 
 
 ## Usage
 ![screencast](http://i.imgur.com/2fPGHUV.gif)
