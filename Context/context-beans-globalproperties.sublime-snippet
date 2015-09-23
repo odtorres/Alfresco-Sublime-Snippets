@@ -15,8 +15,8 @@
    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <snippet>
-	<content><![CDATA[<value>alfresco.module.$1.messages.$2</value>]]></content>
-	<tabTrigger>value resource</tabTrigger>
+	<content><![CDATA[<property name="myName" value="\${name.my.value}"/>]]></content>
+	<tabTrigger>property globalproperties</tabTrigger>
 	<scope>text.xml</scope>
 	<description>-context.xml</description>
 </snippet>

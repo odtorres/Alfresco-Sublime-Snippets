@@ -21,7 +21,7 @@
 <beans>
     
 </beans>]]></content>
-	<tabTrigger>context beans</tabTrigger>
+	<tabTrigger>beans init</tabTrigger>
 	<scope>text.xml</scope>
 	<description>-context.xml</description>
 </snippet>

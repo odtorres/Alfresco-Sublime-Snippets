@@ -16,7 +16,7 @@
 -->
 <snippet>
 	<content><![CDATA[<value>alfresco/module/$1/model/$2.xml</value>]]></content>
-	<tabTrigger>context model value</tabTrigger>
+	<tabTrigger>value model</tabTrigger>
 	<scope>text.xml</scope>
 	<description>-context.xml</description>
 </snippet>

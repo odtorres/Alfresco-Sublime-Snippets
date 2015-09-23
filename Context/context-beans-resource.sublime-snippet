@@ -24,7 +24,7 @@
     </list>
   </property>
 </bean>]]></content>
-	<tabTrigger>context resourceBundles</tabTrigger>
+	<tabTrigger>bean resourceBundles</tabTrigger>
 	<scope>text.xml</scope>
 	<description>-context.xml</description>
 </snippet>

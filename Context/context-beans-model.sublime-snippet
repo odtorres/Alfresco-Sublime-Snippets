@@ -24,7 +24,7 @@
         </list>
     </property>
 </bean>]]></content>
-	<tabTrigger>context model</tabTrigger>
+	<tabTrigger>bean model</tabTrigger>
 	<scope>text.xml</scope>
 	<description>-context.xml</description>
 </snippet>

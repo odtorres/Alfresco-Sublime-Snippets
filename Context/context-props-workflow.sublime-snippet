@@ -21,9 +21,8 @@
     <prop key="location">alfresco/module/$1/workflows/$2.bpmn</prop>
     <prop key="mimetype">text/xml</prop>
     <prop key="redeploy">false</prop>
-</props>            
-        ]]></content>
-	<tabTrigger>context workflow props</tabTrigger>
+</props>]]></content>
+	<tabTrigger>props workflow</tabTrigger>
 	<scope>text.xml</scope>
 	<description>-context.xml</description>
 </snippet>
