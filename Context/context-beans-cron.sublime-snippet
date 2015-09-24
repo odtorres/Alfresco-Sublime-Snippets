@@ -42,7 +42,7 @@
  
     <bean id="$4" class="org.alfresco.util.CronTriggerBean">
         <property name="jobDetail">
-            <ref bean="org_alfresco_module_RecordsManagement_scheduledCutoffJobDetail" />
+            <ref bean="$1" />
         </property>
         <property name="scheduler">
             <ref bean="schedulerFactory" />
