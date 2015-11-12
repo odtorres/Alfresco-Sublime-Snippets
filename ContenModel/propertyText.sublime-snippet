@@ -19,8 +19,7 @@
 <property name="$1:text">
 	<title>Text</title>
 	<type>d:text</type>
-</property>
-	]]></content>
+</property>]]></content>
 	<tabTrigger>propertyText</tabTrigger>
 	<scope>text.xml</scope>
 	<description>ContenModel.xml</description>

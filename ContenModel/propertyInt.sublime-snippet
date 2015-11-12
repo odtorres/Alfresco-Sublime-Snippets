@@ -19,8 +19,7 @@
 <property name="$1:$2">
 	<title>Int</title>
 	<type>d:int</type>	
-</property>
-	]]></content>
+</property>]]></content>
 	<tabTrigger>propertyInt</tabTrigger>
 	<scope>text.xml</scope>
 	<description>ContenModel.xml</description>
