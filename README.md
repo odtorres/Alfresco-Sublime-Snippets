@@ -1,25 +1,25 @@
 # Alfresco-Sublime-Snippets
 
 [![Join the chat at https://gitter.im/odtorres/Alfresco-Sublime-Snippets](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/odtorres/Alfresco-Sublime-Snippets?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
->A collection of sublime text snippets useful for coding Alfresco webscripts, scripts, forms, content models and -context.xml. 
+>A collection of sublime text snippets useful for coding Alfresco webscripts, scripts, forms, content models and -context.xml.
 
-###Please take a look to the WIKI [here](<https://github.com/odtorres/Alfresco-Sublime-Snippets/wiki/>) 
+### Please take a look to the WIKI [here](<https://github.com/odtorres/Alfresco-Sublime-Snippets/wiki/>)
 
 ## Usage
 ![screencast](http://i.imgur.com/2fPGHUV.gif)
 
-####Important LINUX
+#### Important LINUX
 For Sublime Text 3 Linux type <model or <webscript then ctrl+space or tab.
 
 ## Installation
 
-###Through Sublime Package Manager
+### Through Sublime Package Manager
 
 1. Ctrl+Shift+P or Cmd+Shift+P in Linux/Windows/OS X
 2. Type install, select Package Control: Install Package
 3. Type alfresco, select Alfresco-Sublime-Snippets
 
-###Manually
+### Manually
 
  Download the [.zip](https://github.com/odtorres/Alfresco-Sublime-Snippets/archive/master.zip) file and unzip it into your Sublime Text packages directory.
 
