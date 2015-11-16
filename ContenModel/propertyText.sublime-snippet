@@ -17,8 +17,8 @@
 <snippet>
 	<content><![CDATA[
 <property name="$1:text">
-	<title>Text</title>
-	<type>d:text</type>
+   <title>Text</title>
+   <type>d:text</type>
 </property>]]></content>
 	<tabTrigger>propertyText</tabTrigger>
 	<scope>text.xml</scope>
