@@ -29,7 +29,7 @@
    </target>
 </association>
 ]]></content>
-	<tabTrigger>association</tabTrigger>
+	<tabTrigger>association person</tabTrigger>
 	<scope>text.xml</scope>
 	<description>ContenModel.xml</description>
 </snippet>
