@@ -9,7 +9,7 @@
 ![screencast](http://i.imgur.com/2fPGHUV.gif)
 
 #### Important LINUX
-For Sublime Text 3 Linux type <model or <webscript then ctrl+space or tab.
+For Linux type <model or <webscript then ctrl+space or tab.
 
 ## Installation
 
