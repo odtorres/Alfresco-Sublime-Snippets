@@ -22,7 +22,6 @@
 	<url>/org/helloworld?to={name}</url>
 	<url>/org/hello/world?to={name}</url>  
    <authentication>user</authentication>
-
 	<format default="html">extension</format>   
    <family>name of family</family>	
 </webscript>]]></content>
