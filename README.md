@@ -41,6 +41,9 @@ The official site is at <http://odtorres.github.io/Alfresco-Sublime-Snippets/>.
 
 If you need help post your specific question in the [Gitter Chat.](https://gitter.im/odtorres/Alfresco-Sublime-Snippets)
 
+## Another tool
+If you use [Visual Studio Code](https://www.visualstudio.com/en-us/products/code-vs.aspx) you should see [Alfresco-VSCode](https://github.com/odtorres/Alfresco-VSCode).
+
 ## Author
 GitHub: [odtorres](https://github.com/odtorres)
 
