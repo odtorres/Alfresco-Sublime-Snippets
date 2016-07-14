@@ -1,0 +1,37 @@
+<!--
+   Alfresco Sublime Text Snippets by Oscar Daniel Torres Hdez <odtorres@uci.cu>
+   Copyright (C) 2015 Oscar Daniel Torres Hdez.
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU Affero General Public License as published
+   by the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU Affero General Public License for more details.
+
+   You should have received a copy of the GNU Affero General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<snippet>
+	<content><![CDATA[
+<config evaluator="string-compare" condition="SitePages">
+      <pages>
+         <page id="calendar">calendar</page>
+         <page id="wiki-page">wiki-page?title=Main_Page</page>
+         <page id="documentlibrary">documentlibrary</page>
+         <page id="discussions-topiclist">discussions-topiclist</page>
+         <page id="blog-postlist">blog-postlist</page>
+         <page id="links">links</page>
+         <page id="data-lists">data-lists</page>
+      </pages>
+      <!-- Pages not listed in navigation -->
+      <additional-pages>
+        <add-users>add-users</add-users>
+      </additional-pages>
+   </config>]]></content>
+	<tabTrigger>config site-page</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Form.xml</description>
+</snippet>
